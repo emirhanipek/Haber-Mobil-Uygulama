@@ -1,17 +1,27 @@
-# newsapp
+# Haber Sayfası Uygulaması
 
-A new Flutter project.
+![Adsız tasarım (8)](https://github.com/user-attachments/assets/5a7deabe-8de1-46c2-a03b-6e97e222ec9b)
 
-## Getting Started
+Bu proje, **Flutter** ve **Dart** kullanılarak geliştirilmiş bir haber sayfası uygulamasıdır. Uygulama, haberleri bir API üzerinden çeker ve kullanıcı bilgilerini bir veritabanına kaydeder. Ayrıca, kullanıcı deneyimini iyileştirmek için Türkçe ve İngilizce dil desteği ile birlikte karanlık ve aydınlık mod seçenekleri sunulmuştur.
 
-This project is a starting point for a Flutter application.
+## Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- **API Entegrasyonu**: Haberler, güvenilir bir kaynaktan API aracılığıyla çekilmektedir.
+- **Kullanıcı Yönetimi**: Kullanıcılar, uygulamaya giriş yapabilir, kayıt olabilir ve bilgiler veritabanına kaydedilir (örneğin, kullanıcı adı ve e-posta).
+- **Dil Desteği**: Uygulama Türkçe ve İngilizce olarak kullanılabilir. Kullanıcılar istedikleri dili seçebilir.
+- **Karanlık/Aydınlık Mod**: Kullanıcılar, uygulamayı karanlık veya aydınlık modda kullanabilirler. Bu özellik, kullanıcıların tercihlerine göre arayüzü özelleştirmelerine olanak tanır.
+- **Modern ve Duyarlı Tasarım**: Tüm cihazlarda sorunsuz çalışan kullanıcı dostu bir arayüz.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Kullanılan Teknolojiler
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Haber-Mobil-Uygulama
+- **Flutter & Dart**: Mobil uygulama geliştirme.
+- **RESTful API**: Haberleri almak için kullanıldı.
+- **Firebase veya SQLite**: Kullanıcı bilgilerini saklamak için kullanıldı.
+- **Provider veya Bloc**: Durum yönetimi için kullanıldı.
+- **Localization**: Uygulamada çoklu dil desteği sağlamak için kullanıldı.
+
+## Kurulum
+
+1. Projeyi yerel makinenize klonlayın:
+   ```bash
+   git clone https://github.com/kullaniciadi/haber-sayfasi.git
