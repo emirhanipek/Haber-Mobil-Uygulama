@@ -16,12 +16,12 @@ Bu proje, **Flutter** ve **Dart** kullanılarak geliştirilmiş bir haber sayfas
 
 - **Flutter & Dart**: Mobil uygulama geliştirme.
 - **RESTful API**: Haberleri almak için kullanıldı.
-- **Firebase veya SQLite**: Kullanıcı bilgilerini saklamak için kullanıldı.
-- **Provider veya Bloc**: Durum yönetimi için kullanıldı.
+- **Firebase**: Kullanıcı bilgilerini saklamak için kullanıldı.
+- **Provider**: Durum yönetimi için kullanıldı.
 - **Localization**: Uygulamada çoklu dil desteği sağlamak için kullanıldı.
 
 ## Kurulum
 
 1. Projeyi yerel makinenize klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/haber-sayfasi.git
+   git clone https://github.com/emirhanipek/haber-sayfasi.git
